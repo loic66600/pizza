@@ -1,0 +1,62 @@
+/* inport fonts */
+@font-face {
+    font-family: 'dancing';
+    src: url('assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kuhula-regular';
+    src: url('assets/fonts/Khula/Khula-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'kuhula-bold';
+    src: url('assets/fonts/Khula/Khula-Bold.ttf') format('truetype');
+}
+
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'kuhula-regular', sans-serif;
+    color: rgba(245, 245, 245, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: dancing, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 1);
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgba(33, 27, 26, 1);
+}
+
+.line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(196, 70, 48);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: rgb(196, 70, 48);
+}

@@ -441,7 +441,6 @@ body {
 
 }
 
-
 /* ici code vue pc large */
 /* 5 eme media query > 1280px */
 @media screen and (min-width: 1280px) {
@@ -491,7 +490,6 @@ body {
     transform: rotate(45deg);
 
 }
-
 
 .trait-black {
     width: 30px;

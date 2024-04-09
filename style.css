@@ -309,13 +309,85 @@ body {
     margin: 10px 0;
 }
 
+/* footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-footer-logo {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    background-color: rgba(155, 49, 49, 1);
+    border-radius: 50%;
+    justify-content: center;
+    transform: translatey(75px);
+
+}
+
+.footer-logo {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+}
+
+.nav-footer {
+    padding-top: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(155, 49, 49, 1);
+}
+
+.nav-ul-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-icon-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-footer>a:hover {
+    color: rgba(225, 71, 78, 1);
+}
+
+.text-footer {
+    margin-bottom: 5px;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon:hover {
+    color: rgba(225, 71, 78, 1);
+}
+
+.box-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(225, 71, 78, 1);
+    padding-bottom: 220px;
+}
 
 
+
+
+
+/* .................................................. */
 /* ici code vue tablette */
 /* 2 eme media query >480px < 768 px */
 @media screen and (min-width: 480px) {}
 
-
+/* .................................................. */
 /* ici code vue portable*/
 /* 3 eme media query > 768px et < 900px */
 @media screen and (min-width: 768px) {
@@ -393,14 +465,51 @@ body {
         object-fit: contain;
     }
 
+    /* footer */
+    .nav-ul-footer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
+    }
 
+    .nav-link-footer {
+        border-right: 1px solid rgba(245, 245, 245, 1);
+        padding: 0 20px;
+    }
+
+    .box-icon-footer {
+        padding-left: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .box-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    /*  1er enfant de .box-footer */
+    .box-footer>p:first-child {
+        padding-right: 20px;
+        bordeer-right: 1px solid rgba(245, 245, 245, 1);
+    }
+
+    .box-footer>p:last-child {
+        padding-left: 20px;
+    }
 }
 
 
 
 
 
-
+/* ....................................... */
 /* ici code vue pc  */
 /* 4 eme media query > 900px */
 @media screen and (min-width: 900px) {
@@ -439,8 +548,11 @@ body {
 
     }
 
+
+
 }
 
+/* ................................................ */
 /* ici code vue pc large */
 /* 5 eme media query > 1280px */
 @media screen and (min-width: 1280px) {
@@ -466,6 +578,7 @@ body {
 
     }
 
+    /* ............................................................... */
 }
 
 .truc {

@@ -1,45 +1,44 @@
-# 🍕 Papa Pizza - Site Web en HTML/CSS
+# 🍕 Papa Pizza - Site vitrine HTML/CSS
 
-## 🗒 À propos du projet
+## À propos
 
-Ce projet "Papa Pizza" est un site web statique développé en utilisant uniquement HTML et CSS. Il a été créé pour promouvoir une pizzeria fictive, en mettant en avant ses offres, son menu, et ses services. Ce projet a été réalisé avant ma formation officielle en développement web, en suivant des tutoriels en ligne pour apprendre les bases du HTML et du CSS.
+Papa Pizza est un site statique en français pour une pizzeria fictive.
+Le projet contient une page d'accueil complète avec navigation interne, sections de présentation, carte des pizzas et zone de contact.
 
-## 🎯 Objectifs d'apprentissage
+## Fonctionnalités
 
-- Comprendre les bases du HTML pour structurer le contenu d'une page web.
-- Appliquer les principes fondamentaux du CSS pour styliser le site.
-- Créer un design simple mais attrayant pour présenter les informations de la pizzeria.
-- Apprendre à organiser les fichiers d'un projet web basique.
-- Découvrir le processus de création d'un site web statique.
+- Navigation par ancres : `Accueil`, `Carte`, `Actualités`, `Contact`
+- Section "Nos stars du moment"
+- Carte complète avec catégories et prix
+- Formulaire de commande interactif (validation + message de confirmation)
+- Page dédiée `actualites.html`
+- Boutons d'action fonctionnels (`Commander`, téléphone, itinéraire)
+- Mise en page responsive mobile / tablette / desktop
 
-## 🚀 Comment visualiser le site
+## Lancer le projet
 
-Le site peut être visualisé de deux manières :
+Ouvrir simplement `index.html` dans un navigateur.
 
-1. **En visitant directement le lien GitHub Pages** : 
-   [https://votre-username.github.io/papa-pizza](https://votre-username.github.io/papa-pizza)
-
-
-
-## 📂 Structure du projet
+## Structure du projet
 
 ```
-papa-pizza/
-│
+pizza/
 ├── index.html
-├── css/
-│   └── style.css
-├── images/
-│   ├── logo.png
-│   ├── pizza1.jpg
-│   ├── pizza2.jpg
-│   └── ...
-└── README.md
+├── actualites.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+   ├── fonts/
+   └── images/
+      ├── homepage/
+      └── icon/
 ```
 
-## 💻 Technologies utilisées
+## Technologies
 
 - HTML5
 - CSS3
+- Bootstrap Icons (CDN)
 
 
